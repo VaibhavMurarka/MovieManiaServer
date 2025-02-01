@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://the-movie-mania.vercel.app/"],//SEE
+    origin: ["http://localhost:5173","https://the-movie-mania.vercel.app"],//SEE
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
